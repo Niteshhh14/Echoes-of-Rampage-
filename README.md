@@ -1,104 +1,104 @@
-# 🎮 Echoes of Rampage: A Cinematic 2D Platformer Built in Godot
+# 🐉 Echoes of Rampage: A Cinematic 2D Platformer Built with Godot
 
 > _“No more hiding... it’s time to light up the storm.”_
 
-**Echoes of Rampage** is a story-driven 2D platformer created entirely in **Godot Engine**.  
-With handcrafted transitions, phase-based boss fights, ambient music layering, and atmospheric storytelling — it's a journey through the chaos that's been left behind… or is yet to come.
+---
+
+🎮 **Echoes of Rampage** is a cinematic, story-driven 2D action platformer built entirely in the **Godot Engine**.
+
+Crafted from scratch — this game delivers a tightly-woven experience of visual storytelling, dynamic audio, parkour challenges, epic boss fights, and a minimalist, emotional ending.
 
 ---
 
-## 🎮 Game Highlights
+## 🚀 Highlights
 
-### 🎬 Cinematic Storytelling
-- **Fade-in RichText Endings & Visual Outro**  
-  - Dynamic image/text transitions with a minimalist but impactful finale.
-- **Cues & Clues**  
-  - Non-intrusive text hints encourage the player to think, explore, and adapt.
-- **Narrative Level Design**  
-  - Parkour sections with visual indicators, themed enemy waves, and symbolic platforming.
+- 🎨 **Cinematic Camera & Scene Transitions**
+  - Smooth zoom-ins, timed camera shakes, and tweens.
+  - Fade-ins using `Tween` and `AnimationPlayer` for storytelling.
 
-### ⚔️ Boss AI & Phases
-- **Slime King Boss Fight**  
-  - Dual-phase AI behavior: resurrection, buffed speed, and minion swarm.
-- **Arena Lock & Unlock Triggers**  
-  - Uses timers, collision triggers, and signals for boss logic control.
+- 🔥 **Boss Mechanics & Arena Lockdown**
+  - The Slime King brings chaos with **two phases**, resurrection, and minion spawns.
+  - Cinematic cues, arena locking, and BGM switches elevate tension.
 
-### 🎧 Audio System
-- **Multi-Layered BGM Transitions**  
-  - Managed via `AudioStreamPlayer` nodes with zone-based volume fades.
-- **Custom Rampage Soundtrack Timing**  
-  - Soundtrack shifts based on wave completions, boss deaths, and exploration cues.
+- 🔫 **AK47 Power Surge**
+  - Mid-game surprise: the player gains an **AK47**, turning the tide.
+  - Camera punch + BGM change amplifies the “Now you fight back” vibe.
+
+- 🎧 **Dynamic Audio Transitions**
+  - Smart use of `AudioStreamPlayer` for area-based tracks.
+  - Volume fades, scene-based BGM shifts, and soundtrack layering.
+
+- 🧠 **Exploration & Environmental Storytelling**
+  - Label prompts hint at hidden paths and warn of traps.
+  - Parkour section includes visual clues (like safe platform branches).
+  - “Leap of Faith” moment designed to reward observation.
+
+- 🎬 **Cinematic Outro**
+  - RichText fade-ins, dev quotes, and ambient background.
+  - Smooth transition to main menu with BGM and image storytelling.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Engine: [Godot 4.x]
-- Scripting: GDScript (written from scratch)
-- Art Assets: [SunnyLand Forest Pack (Itch.io)]  
-- Sound: `.ogg` BGM from anime (used for non-commercial fair use)
-
----
-
-## 🧪 Development Journey
-
-This project was built ground-up — no templates, no tutorials.  
-Every mechanic, animation sync, and scene transition was learned, broken, and rebuilt through **pure iteration and experimentation**.
-
-What started with just spawning slimes… turned into a full cinematic game loop.
+- 🧩 Engine: **Godot 4.x**
+- 💬 Language: **GDScript**
+- 🎨 Visuals: Sunnyland assets, ColorRects, custom image layering
+- 🔉 Sound: `.ogg` tracks, `AudioStreamPlayer`, custom fade logic
 
 ---
 
 ## 🎬 Gameplay Preview
 
-🎥 _[Coming Soon: Gameplay Clip]_  
-> Includes: Leap of Faith, Rampage Wave, Final Boss Fight, and Outro Cutscene.
+💡 _Psst... there's a developer-only shortcut to end the boss fight — if you're cornered..._
 
 ---
 
-## 💡 Behind the Name
+## 📦 How to Run
 
-> “They came in waves. And when the waves were over, something greater rose from their echoes...”
-
-**Echoes of Rampage** reflects the lingering weight of conflict.  
-It’s not just about fighting chaos — it’s about what that chaos leaves behind.
-
----
-
-## 📸 Screenshots (To Be Added)
-
-- Intro scene with camera zoom
-- Final boss cinematic
-- “Leap of Faith” platform section
-- Outro sequence with dev quote
+1. Clone this repository
+2. Open the project in **Godot 4.x**
+3. Run the scene `main.tscn`
+4. **Survive the rampage... or embrace it.**
 
 ---
 
-## 📦 How to Play
+## 🧠 Developer’s Note
 
-1. Clone the repo  
-2. Open in **Godot 4.x**  
-3. Run `main.tscn`  
-4. Explore, fight, survive — and listen closely.
+This wasn’t built using any template or tutorial.  
+Every mechanic — from music fade logic to boss resurrection — was a result of deep exploration, iteration, and problem-solving.
+
+The game evolved with every experiment:
+- `Tween` and `AnimationPlayer` were mastered for transitions.
+- Audio issues led to understanding the difference between `AudioStreamPlayer` and `AudioStreamPlayer2D`.
+- Multiple levels of polish were applied to pacing, parkour, and payoff.
+
+This game was **built with heart, line by line.**
+
+---
+
+## 📸 Screenshots
+
+- Boss arena in full chaos
+- AK47 activation & rampage moment
+- Parkour leap of faith
+- Final cinematic outro
+
+---
+
+## 🎨 Inspirations
+
+- **Visual/Narrative Vibe**: _Journey_, _INSIDE_
+- **Gameplay Pacing**: Classic 2D action platformers
+- **Soundtrack Influence**: Anime OSTs from *AOT*, *Bleach*, *One Piece*
+- **Endgame Theme**: Minimalist, emotional payoff
 
 ---
 
 ## 🙌 Credits
 
 - **Developer**: [Nitesh Reddy](https://github.com/Niteshhh14)
+- **Art**: Sunnyland Assets (by Kenney)
 - **Engine**: [Godot Engine](https://godotengine.org/)
-- **Music**: Anime OSTs for ambiance (non-commercial usage)
-- **Assets**: SunnyLand Forest Pack by Ansimuz
+- **Music**: Anime OSTs used under fair-use for non-commercial showcasing
 
----
-
-## 🔗 Connect
-
-🎥 Trailer coming soon  
-📌 LinkedIn post in progress  
-📎 Project GitHub: [GitHub Repo Link]
-
-> _One versus a hundred? I like those odds._  
-> _This isn’t survival. This is a statement._
-
----
