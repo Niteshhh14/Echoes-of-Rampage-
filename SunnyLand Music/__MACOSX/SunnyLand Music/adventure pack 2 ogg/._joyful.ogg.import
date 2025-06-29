@@ -1,0 +1,18 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dh2ye7m37wk34"
+valid=false
+
+[deps]
+
+source_file="res://SunnyLand Music/__MACOSX/SunnyLand Music/adventure pack 2 ogg/._joyful.ogg"
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

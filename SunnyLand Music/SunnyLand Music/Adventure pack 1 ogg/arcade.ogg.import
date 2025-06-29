@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b460mpaia01x0"
+path="res://.godot/imported/arcade.ogg-26152ace2465474dbec7a401e2dcb7cd.oggvorbisstr"
+
+[deps]
+
+source_file="res://SunnyLand Music/SunnyLand Music/Adventure pack 1 ogg/arcade.ogg"
+dest_files=["res://.godot/imported/arcade.ogg-26152ace2465474dbec7a401e2dcb7cd.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,14 @@
+Label
+HBoxContainer
+Container
+Button
+AnimationPlayer
+AudioStreamPlayer
+RichTextLabel
+ColorRect
+CanvasLayer
+AudioStreamPlayer2D
+Timer
+VideoStreamPlayer
+Control
+CollisionShape2D

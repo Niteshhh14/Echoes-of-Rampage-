@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=3 uid="uid://bro1x7mp4evsu"]
+
+[ext_resource type="Script" uid="uid://5qjys4gmbl8m" path="res://to_be_continued.gd" id="1_gwu61"]
+[ext_resource type="VideoStream" uid="uid://0ogyn4bmfopb" path="res://Videos/zoro_tbc.ogv" id="2_d12o2"]
+
+[node name="TBCVideo" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_gwu61")
+
+[node name="VideoPlayer" type="VideoStreamPlayer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 28.85
+anchor_bottom = 16.175
+offset_right = -0.00012207
+offset_bottom = -6.10352e-05
+stream = ExtResource("2_d12o2")
+autoplay = true
+expand = true
+
+[node name="FadeToBlack" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 28.825
+anchor_bottom = 16.15
+offset_bottom = -6.10352e-05
+color = Color(0, 0, 0, 0)

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c4tk5e4isrdhu"
+path="res://.godot/imported/Bleach OST On the Precipice of Defeat.mp3-5f3eb272ee5dda29bf219f5e70399398.mp3str"
+
+[deps]
+
+source_file="res://Sounds/Bleach OST On the Precipice of Defeat.mp3"
+dest_files=["res://.godot/imported/Bleach OST On the Precipice of Defeat.mp3-5f3eb272ee5dda29bf219f5e70399398.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

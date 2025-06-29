@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c80oswroci3s3"
+path="res://.godot/imported/One Piece OST_ Overtaken  EPIC VERSION (Drums of Liberation).mp3-681b7dfa47f74bf7e80c477e514b3582.mp3str"
+
+[deps]
+
+source_file="res://Sounds/One Piece OST_ Overtaken  EPIC VERSION (Drums of Liberation).mp3"
+dest_files=["res://.godot/imported/One Piece OST_ Overtaken  EPIC VERSION (Drums of Liberation).mp3-681b7dfa47f74bf7e80c477e514b3582.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

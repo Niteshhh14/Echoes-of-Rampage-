@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bxl6kwgm6gsgc"
+path="res://.godot/imported/AMV. Sadness And Sorrow. (original) . Sad Naruto Childhood.mp3-db915283b3ac822e3a4281bdb4a1f152.mp3str"
+
+[deps]
+
+source_file="res://Sounds/AMV. Sadness And Sorrow. (original) . Sad Naruto Childhood.mp3"
+dest_files=["res://.godot/imported/AMV. Sadness And Sorrow. (original) . Sad Naruto Childhood.mp3-db915283b3ac822e3a4281bdb4a1f152.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

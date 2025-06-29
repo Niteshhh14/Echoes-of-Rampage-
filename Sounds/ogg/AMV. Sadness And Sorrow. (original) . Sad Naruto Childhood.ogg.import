@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cdbdyxbnsrm4p"
+path="res://.godot/imported/AMV. Sadness And Sorrow. (original) . Sad Naruto Childhood.ogg-b580fded2ea1e51a287ef1e171aac356.oggvorbisstr"
+
+[deps]
+
+source_file="res://Sounds/ogg/AMV. Sadness And Sorrow. (original) . Sad Naruto Childhood.ogg"
+dest_files=["res://.godot/imported/AMV. Sadness And Sorrow. (original) . Sad Naruto Childhood.ogg-b580fded2ea1e51a287ef1e171aac356.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

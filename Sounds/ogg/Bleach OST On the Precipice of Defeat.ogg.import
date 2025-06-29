@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dtipouqbhsc0i"
+path="res://.godot/imported/Bleach OST On the Precipice of Defeat.ogg-482befdf13ebdd393a71ebd2396cf0e9.oggvorbisstr"
+
+[deps]
+
+source_file="res://Sounds/ogg/Bleach OST On the Precipice of Defeat.ogg"
+dest_files=["res://.godot/imported/Bleach OST On the Precipice of Defeat.ogg-482befdf13ebdd393a71ebd2396cf0e9.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

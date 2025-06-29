@@ -1,0 +1,76 @@
+[gd_scene load_steps=4 format=3 uid="uid://dnroeu8o4wob2"]
+
+[ext_resource type="Script" uid="uid://k8swqe1gxaax" path="res://control.gd" id="1_d2ofq"]
+[ext_resource type="AudioStream" uid="uid://cdbdyxbnsrm4p" path="res://Sounds/ogg/AMV. Sadness And Sorrow. (original) . Sad Naruto Childhood.ogg" id="2_njae7"]
+[ext_resource type="Texture2D" uid="uid://7v2asp6rr1oa" path="res://outro.jpg" id="3_jefku"]
+
+[node name="outro" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_d2ofq")
+
+[node name="FadeLayer" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1.0
+offset_bottom = -4.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="tnj_player" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_njae7")
+
+[node name="KnightImage" type="Sprite2D" parent="."]
+position = Vector2(576.5, 320)
+scale = Vector2(1.66327, 1.66321)
+texture = ExtResource("3_jefku")
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="KnightImage"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -174.191
+offset_top = 137.682
+offset_right = -213.191
+offset_bottom = 97.6823
+grow_horizontal = 2
+grow_vertical = 2
+text = "Thank you for playing."
+
+[node name="RichTextLabel" type="RichTextLabel" parent="KnightImage"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 31.0895
+offset_top = -131.852
+offset_right = -7.91046
+offset_bottom = -171.852
+grow_horizontal = 2
+grow_vertical = 2
+text = "The kingdom is safe... for now."
+
+[node name="Buttons" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 788.0
+offset_top = 587.0
+offset_right = 930.0
+offset_bottom = 627.0
+
+[node name="MM" type="Button" parent="Buttons"]
+layout_mode = 2
+text = "Main Menu"
+
+[node name="Quit" type="Button" parent="Buttons"]
+layout_mode = 2
+text = "Quit
+"
+
+[connection signal="pressed" from="Buttons/MM" to="." method="_on_mm_pressed"]
+[connection signal="pressed" from="Buttons/Quit" to="." method="_on_quit_pressed"]

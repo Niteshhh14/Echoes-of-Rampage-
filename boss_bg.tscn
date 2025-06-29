@@ -1,0 +1,73 @@
+[gd_scene load_steps=4 format=3 uid="uid://dtffs6b50dm07"]
+
+[ext_resource type="Texture2D" uid="uid://c0vxbt0ldd0n2" path="res://Sunny Land Collection Files/Sunny Land Collection Files/Assets/Environments/Fort of Illusion/Fort of Illusion Files/Layers/back.png" id="1_cakan"]
+[ext_resource type="Texture2D" uid="uid://mvji1xwt14i3" path="res://Sunny Land Collection Files/Sunny Land Collection Files/Assets/Environments/Fort of Illusion/Fort of Illusion Files/Layers/mountains.png" id="2_cdkl2"]
+
+[sub_resource type="GDScript" id="GDScript_cdkl2"]
+script/source = "extends ParallaxBackground
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
+
+[node name="BossBG" type="ParallaxBackground"]
+script = SubResource("GDScript_cdkl2")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+position = Vector2(1, -1)
+motion_mirroring = Vector2(957, 0)
+
+[node name="Back" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(95, 301)
+scale = Vector2(3, 2.20588)
+texture = ExtResource("1_cakan")
+
+[node name="Back2" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(284, 301)
+scale = Vector2(3, 2.20588)
+texture = ExtResource("1_cakan")
+
+[node name="Back3" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(476, 301)
+scale = Vector2(3, 2.20588)
+texture = ExtResource("1_cakan")
+
+[node name="Back4" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(665, 301)
+scale = Vector2(3, 2.20588)
+texture = ExtResource("1_cakan")
+
+[node name="Back5" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(668, 301)
+scale = Vector2(3, 2.20588)
+texture = ExtResource("1_cakan")
+
+[node name="Back6" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(860, 301)
+scale = Vector2(3, 2.20588)
+texture = ExtResource("1_cakan")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1026, 0)
+
+[node name="Mountains" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(200, 317)
+scale = Vector2(1.5625, 1.66912)
+texture = ExtResource("2_cdkl2")
+
+[node name="Mountains2" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(612, 319)
+scale = Vector2(1.65625, 1.66912)
+texture = ExtResource("2_cdkl2")
+
+[node name="Mountains3" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1060, 320)
+scale = Vector2(1.84375, 1.66912)
+texture = ExtResource("2_cdkl2")

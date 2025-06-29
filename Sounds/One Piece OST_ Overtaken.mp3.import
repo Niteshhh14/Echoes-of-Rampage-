@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bw84jc3hf3j2f"
+path="res://.godot/imported/One Piece OST_ Overtaken.mp3-0bacfab91ed7df817893646f91f1acf0.mp3str"
+
+[deps]
+
+source_file="res://Sounds/One Piece OST_ Overtaken.mp3"
+dest_files=["res://.godot/imported/One Piece OST_ Overtaken.mp3-0bacfab91ed7df817893646f91f1acf0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

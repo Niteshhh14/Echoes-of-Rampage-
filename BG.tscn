@@ -1,0 +1,64 @@
+[gd_scene load_steps=4 format=3 uid="uid://c6uhqlpx1bodj"]
+
+[ext_resource type="Script" uid="uid://b2n6qxypweu0d" path="res://bg.gd" id="1_7r6q2"]
+[ext_resource type="Texture2D" uid="uid://dqv45u6gss73g" path="res://sunny-land-phaser-project/sunny-land/assets/environment/back.png" id="1_275co"]
+[ext_resource type="Texture2D" uid="uid://5cb7t7hdl6w5" path="res://sunny-land-phaser-project/sunny-land/assets/environment/middle.png" id="2_vcwcu"]
+
+[node name="BG" type="ParallaxBackground"]
+script = ExtResource("1_7r6q2")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+position = Vector2(48, 0)
+motion_mirroring = Vector2(1152, 0)
+
+[node name="Back" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(528, 324.75)
+scale = Vector2(3, 2.69375)
+texture = ExtResource("1_275co")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
+position = Vector2(48, 0)
+motion_scale = Vector2(0.7, 0.7)
+motion_mirroring = Vector2(1230, 0)
+
+[node name="Middle" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(40, 558.5)
+scale = Vector2(1, 1.39402)
+texture = ExtResource("2_vcwcu")
+metadata/_edit_lock_ = true
+
+[node name="Middle2" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(214, 558.5)
+scale = Vector2(1, 1.39402)
+texture = ExtResource("2_vcwcu")
+metadata/_edit_lock_ = true
+
+[node name="Middle3" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(390, 558.5)
+scale = Vector2(1, 1.39402)
+texture = ExtResource("2_vcwcu")
+metadata/_edit_lock_ = true
+
+[node name="Middle4" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(566, 558.5)
+scale = Vector2(1, 1.39402)
+texture = ExtResource("2_vcwcu")
+metadata/_edit_lock_ = true
+
+[node name="Middle5" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(742, 558.5)
+scale = Vector2(1, 1.39402)
+texture = ExtResource("2_vcwcu")
+metadata/_edit_lock_ = true
+
+[node name="Middle6" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(918, 558.5)
+scale = Vector2(1, 1.39402)
+texture = ExtResource("2_vcwcu")
+metadata/_edit_lock_ = true
+
+[node name="Middle7" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1094, 557.5)
+scale = Vector2(1, 1.39402)
+texture = ExtResource("2_vcwcu")
+metadata/_edit_lock_ = true

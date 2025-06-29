@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://oqs4601lrhhn"
+path="res://.godot/imported/Attack on Titan Season 4 OST - Ashes on The FireMain Theme.ogg-f1488ce2ae240f0910199296d807c589.oggvorbisstr"
+
+[deps]
+
+source_file="res://Sounds/ogg/Attack on Titan Season 4 OST - Ashes on The FireMain Theme.ogg"
+dest_files=["res://.godot/imported/Attack on Titan Season 4 OST - Ashes on The FireMain Theme.ogg-f1488ce2ae240f0910199296d807c589.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

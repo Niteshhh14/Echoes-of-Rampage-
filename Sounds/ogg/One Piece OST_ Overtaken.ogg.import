@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cunb2jihw4ydm"
+path="res://.godot/imported/One Piece OST_ Overtaken.ogg-1f24193ec7b866063a4d0f138414867a.oggvorbisstr"
+
+[deps]
+
+source_file="res://Sounds/ogg/One Piece OST_ Overtaken.ogg"
+dest_files=["res://.godot/imported/One Piece OST_ Overtaken.ogg-1f24193ec7b866063a4d0f138414867a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://duoip5xomkbhg"]
+
+[ext_resource type="Script" uid="uid://5x4ntn4phuyw" path="res://bullet.gd" id="1_4s4u5"]
+[ext_resource type="Texture2D" uid="uid://c2n40cw3ktl21" path="res://Sunny Land Collection Files/Sunny Land Collection Files/Assets/Props Items and VFX/Grotto-escape-2-FX/sprites/fire-ball/_0001_Layer-2.png" id="2_4s4u5"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ayd6b"]
+radius = 1.99988
+height = 15.999
+
+[node name="Bullet" type="Area2D"]
+script = ExtResource("1_4s4u5")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(5, 1.19209e-07)
+scale = Vector2(0.403846, 0.37069)
+texture = ExtResource("2_4s4u5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(6, 0)
+rotation = 1.55967
+shape = SubResource("CapsuleShape2D_ayd6b")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

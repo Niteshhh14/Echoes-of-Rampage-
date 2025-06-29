@@ -1,0 +1,18 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://urocw260llkg"
+valid=false
+
+[deps]
+
+source_file="res://SunnyLand Music/__MACOSX/SunnyLand Music/Adventure pack 1 ogg/._dark-happy-world.ogg"
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://xjfeeap8kqa0"
+path="res://.godot/imported/ətˈæk 0N tάɪtn.ogg-98b7321efc403924b38cb164092fd66e.oggvorbisstr"
+
+[deps]
+
+source_file="res://Sounds/ogg/ətˈæk 0N tάɪtn.ogg"
+dest_files=["res://.godot/imported/ətˈæk 0N tάɪtn.ogg-98b7321efc403924b38cb164092fd66e.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4
